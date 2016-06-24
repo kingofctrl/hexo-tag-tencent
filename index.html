@@ -1,0 +1,157 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>HMYBMNY</title>
+  <meta name="author" content="HmyBmny">
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  
+  <meta property="og:site_name" content="HMYBMNY"/>
+
+  
+    <meta property="og:image" content="undefined"/>
+  
+
+  <link href="/hexo-tag-video_cn/favicon.png" rel="icon">
+  <link rel="alternate" href="/hexo-tag-video_cn/atom.xml" title="HMYBMNY" type="application/atom+xml">
+  <link rel="stylesheet" href="/hexo-tag-video_cn/css/style.css" media="screen" type="text/css">
+  <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+  
+
+</head>
+
+
+<body>
+  <header id="header"><div class="meta inner">
+  <h1><a href="/hexo-tag-video_cn/">HMYBMNY</a></h1>
+  <h2><a href="/hexo-tag-video_cn/"></a></h2>
+  <nav id="main-nav">
+    <ul>
+      
+      <li><a href="/hexo-tag-video_cn/atom.xml">RSS</a></li>
+      
+    </ul>
+    <div class="clearfix"></div>
+  </nav>
+</div>
+<div class="clearfix"></div>
+</header>
+  <div id="content" class="inner">
+    <div id="main-col" class="alignleft"><div id="wrapper">
+  <article class="post">
+  <div class="post-content">
+    <header>
+      
+  
+    <h1 class="title"><a href="/hexo-tag-video_cn/2016/06/20/video/">hexo-tag-video_cn使用说明</a></h1>
+  
+
+      
+        <time datetime="2016-06-19T16:00:00.000Z">2016-06-20</time>
+      
+    </header>
+    <div class="entry">
+      
+        <h2 id="一个帮助你在你的网站插入优酷和腾讯视频的hexo插件"><a href="#一个帮助你在你的网站插入优酷和腾讯视频的hexo插件" class="headerlink" title="一个帮助你在你的网站插入优酷和腾讯视频的hexo插件"></a>一个帮助你在你的网站插入优酷和腾讯视频的hexo插件</h2><h3 id="链接-https-github-com-HmyBmny-hexo-tag-video-cn"><a href="#链接-https-github-com-HmyBmny-hexo-tag-video-cn" class="headerlink" title="链接 https://github.com/HmyBmny/hexo-tag-video_cn"></a>链接 <a href="https://github.com/HmyBmny/hexo-tag-video_cn" target="_blank" rel="external">https://github.com/HmyBmny/hexo-tag-video_cn</a></h3><h3 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-tag-video_cn</span><br></pre></td></tr></table></figure>
+<p>将hexo-tag-video_cn版本信息添加到你的package.json，否则会报错并且无法使用，添加后你的package.json应类似于<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br></pre></td><td class="code"><pre><span class="line">&#123;</span><br><span class="line">  &quot;name&quot;: &quot;hexo-site&quot;,</span><br><span class="line">  &quot;version&quot;: &quot;0.0.0&quot;,</span><br><span class="line">  &quot;private&quot;: true,</span><br><span class="line">  &quot;hexo&quot;: &#123;</span><br><span class="line">    &quot;version&quot;: &quot;3.2.0&quot;</span><br><span class="line">  &#125;,</span><br><span class="line">  &quot;dependencies&quot;: &#123;</span><br><span class="line">    &quot;hexo&quot;: &quot;^3.2.0&quot;,</span><br><span class="line">    &quot;hexo-generator-archive&quot;: &quot;^0.1.4&quot;,</span><br><span class="line">    &quot;hexo-generator-category&quot;: &quot;^0.1.3&quot;,</span><br><span class="line">    &quot;hexo-generator-feed&quot;: &quot;^1.1.0&quot;,</span><br><span class="line">    &quot;hexo-generator-index&quot;: &quot;^0.2.0&quot;,</span><br><span class="line">    &quot;hexo-generator-sitemap&quot;: &quot;^1.1.2&quot;,</span><br><span class="line">    &quot;hexo-generator-tag&quot;: &quot;^0.2.0&quot;,</span><br><span class="line">    &quot;hexo-renderer-ejs&quot;: &quot;^0.2.0&quot;,</span><br><span class="line">    &quot;hexo-renderer-marked&quot;: &quot;^0.2.10&quot;,</span><br><span class="line">    &quot;hexo-renderer-stylus&quot;: &quot;^0.3.1&quot;,</span><br><span class="line">    &quot;hexo-server&quot;: &quot;^0.2.0&quot;,</span><br><span class="line">    &quot;hexo-tag-video_cn&quot;: &quot;^0.1.2&quot;</span><br><span class="line">    ...</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
+<p>目前只能插入优酷和腾讯视频，插入其它的会报错。<br>腾讯视频插入：  </p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&#123;% video v_qq video_id width height %&#125;</span><br></pre></td></tr></table></figure>
+<p>一般在视频播放页的网址类似于<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">http://v.qq.com/page/e/0/k/e018522ewbk.html</span><br><span class="line">e018522ewbk就是我们需要的video_id，腾讯视频width，height建议设为640，498。</span><br></pre></td></tr></table></figure></p>
+<p>请欣赏我最喜欢的视频之一，视频中的小女孩很有刘三姐的范儿，不知道为什么，看的时候我也想起了孟姜女。。。<br><iframe frameborder="0" width="640" height="498" src="http://v.qq.com/iframe/player.html?vid=e018522ewbk&tiny=0&auto=0" allowfullscreen></iframe></p>
+<p>优酷视频插入：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&#123;% video youku video_id width height %&#125;</span><br></pre></td></tr></table></figure></p>
+<p>优酷视频的网址一般是以下结构<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">http://v.youku.com/v_show/id_XMTUzOTM5MjAxNg==.html?from=y1.3-tv-grid-1007-9910.86827-86854.5-1#paction</span><br><span class="line">找到id_XMTUzOTM5MjAxNg==.html部分，通过&#123;% video youku XMTUzOTM5MjAxNg== 480 400 %&#125;即可播放该视频</span><br><span class="line">480 400是推荐的width，height的值</span><br></pre></td></tr></table></figure></p>
+<iframe height="400" width="480" src="http://player.youku.com/embed/XMTUzOTM5MjAxNg==" frameborder="0" allowfullscreen></iframe>
+<h2 id="常见错误"><a href="#常见错误" class="headerlink" title="常见错误"></a>常见错误</h2><ul>
+<li>如果插入其它网站的视频，你会得到以下错误信息  </li>
+</ul>
+<center><font color="red" size="2">插入视频出错，<a href="https://github.com/HmyBmny/hexo-theme-concise" target="_blank" rel="external">hexo-tag-video_cn</a>目前只能插入优酷以及腾讯的视频，其它的暂不支持，谢谢！</font></center>
+
+<ul>
+<li>如果插入优酷和腾讯视频提示视频不存在或者和预期不符，那就在视频原页面找到分享按钮并取出类似于以下的代码：</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;iframe frameborder=&quot;0&quot; width=&quot;640&quot; height=&quot;498&quot; src=&quot;http://v.qq.com/iframe/player.html?vid=g0020yb2j5y&amp;tiny=0&amp;auto=0&quot; allowfullscreen&gt;&lt;/iframe&gt;</span><br></pre></td></tr></table></figure>
+<ul>
+<li>对于腾讯视频其中vid=g0020yb2j5y中的g0020yb2j5y就是video_id，优酷的分享链接比较规范，暂时没有发现这种情况。</li>
+</ul>
+
+      
+    </div>
+      
+        
+        
+      
+      <div class="clearfix"></div>
+      </footer>
+  </div>
+</article>
+
+
+
+
+
+
+<nav id="pagination">
+  
+  
+  <div class="clearfix"></div>
+</nav></div></div>
+    <aside id="sidebar" class="alignright">
+  <div class="search">
+  <form action="//google.com/search" method="get" accept-charset="utf-8">
+    <input type="search" name="q" results="0" placeholder="Search">
+    <input type="hidden" name="q" value="site:hmybmny.github.io">
+  </form>
+</div>
+
+  
+<div class="widget tag">
+  <h3 class="title">Recent Posts</h3>
+  <ul class="entry">
+    
+      <li>
+        <a href="/hexo-tag-video_cn/2016/06/20/video/">hexo-tag-video_cn使用说明</a>
+      </li>
+    
+  </ul>
+</div>
+
+
+  
+<div class="widget tag">
+  <h3 class="title">Categories</h3>
+  <ul class="entry">
+  
+    <li><a href="/hexo-tag-video_cn/categories/Video-cn/">Video_cn</a><small>1</small></li>
+  
+  </ul>
+</div>
+
+
+  
+<div class="widget tagcloud">
+  <h3 class="title">Tag Cloud</h3>
+  <div class="entry">
+    <a href="/hexo-tag-video_cn/tags/hexo/" style="font-size: 10px;">hexo</a> <a href="/hexo-tag-video_cn/tags/plugin/" style="font-size: 10px;">plugin</a>
+  </div>
+</div>
+
+</aside>
+    <div class="clearfix"></div>
+  </div>
+  <footer id="footer" class="inner"><div class="alignleft">
+  
+  &copy; 2016 HmyBmny
+  
+</div>
+<div class="clearfix"></div></footer>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+
+
+</body>
+</html>
+
