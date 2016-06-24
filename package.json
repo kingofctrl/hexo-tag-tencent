@@ -1,6 +1,6 @@
 {
   "name": "hexo-tag-video_cn",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "A hexo plugin for inserting youku or tencent video in your site.",
   "main": "index.js",
   "scripts": {
