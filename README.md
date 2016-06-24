@@ -34,7 +34,7 @@ npm install hexo-tag-video_cn
 
 ## 文档
 
-https://hmybmny.github.io/hexo-theme-concise/2016/06/20/video/
+https://hmybmny.github.io/hexo-tag-video_cn
 
 项目的灵感来源于hexo-tag-xvideos
 
