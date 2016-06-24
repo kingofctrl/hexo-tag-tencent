@@ -61,10 +61,13 @@
 <p>目前只能插入优酷和腾讯视频，插入其它的会报错。<br>腾讯视频插入：  </p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&#123;% video v_qq video_id width height %&#125;</span><br></pre></td></tr></table></figure>
 <p>一般在视频播放页的网址类似于<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">http://v.qq.com/page/e/0/k/e018522ewbk.html</span><br><span class="line">e018522ewbk就是我们需要的video_id，腾讯视频width，height建议设为640，498。</span><br></pre></td></tr></table></figure></p>
-<p>请欣赏我最喜欢的视频之一，视频中的小女孩很有刘三姐的范儿，不知道为什么，看的时候我也想起了孟姜女。。。<br><iframe frameborder="0" width="640" height="498" src="http://v.qq.com/iframe/player.html?vid=e018522ewbk&tiny=0&auto=0" allowfullscreen></iframe></p>
+<p>请欣赏我最喜欢的视频之一，视频中的小女孩很有刘三姐的范儿，不知道为什么，看的时候我也想起了孟姜女。。。</p>
+<iframe frameborder="0" width="640" height="498" src="http://v.qq.com/iframe/player.html?vid=e018522ewbk&tiny=0&auto=0" allowfullscreen></iframe>
+
 <p>优酷视频插入：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&#123;% video youku video_id width height %&#125;</span><br></pre></td></tr></table></figure></p>
 <p>优酷视频的网址一般是以下结构<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">http://v.youku.com/v_show/id_XMTUzOTM5MjAxNg==.html?from=y1.3-tv-grid-1007-9910.86827-86854.5-1#paction</span><br><span class="line">找到id_XMTUzOTM5MjAxNg==.html部分，通过&#123;% video youku XMTUzOTM5MjAxNg== 480 400 %&#125;即可播放该视频</span><br><span class="line">480 400是推荐的width，height的值</span><br></pre></td></tr></table></figure></p>
-<iframe height="400" width="480" src="http://player.youku.com/embed/XMTUzOTM5MjAxNg==" frameborder="0" allowfullscreen></iframe>
+<iframe height="498" width="510" src="http://player.youku.com/embed/XMTUzOTM5MjAxNg==" frameborder="0" allowfullscreen></iframe>
+
 <h2 id="常见错误"><a href="#常见错误" class="headerlink" title="常见错误"></a>常见错误</h2><ul>
 <li>如果插入其它网站的视频，你会得到以下错误信息  </li>
 </ul>
