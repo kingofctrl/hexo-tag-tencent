@@ -33,11 +33,11 @@ npm install hexo-tag-tencent
 
 ## 文档
 
-https://hmybmny.github.io/hexo-tag-tencent/2016/06/20/video/
+https://hmybmny.github.io/hexo-tag-tencent/
 
 项目的灵感来源于hexo-tag-xvideos
 
 ## 感谢
 
 ![hexo-tag-xvideos](https://github.com/welksonramos/hexo-tag-xvideos)  
-之前我一直觉得除了WIFI万能钥匙以外再没有一件神器能让我如此心动，有了它，月入百万你也能行！
+之前我一直觉得除了WIFI万能钥匙以外再没有一件神器能让我如此心动，有了它，月入百万或许你也能行，保重！
