@@ -1,24 +1,24 @@
 {
-  "name": "hexo-tag-video_cn",
-  "version": "0.1.0",
-  "description": "A hexo plugin for inserting youku or tencent video in your site.",
+  "name": "hexo-tag-tencent",
+  "version": "0.1.3",
+  "description": "A hexo plugin for inserting youku or tencent video in your site. ",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/HmyBmny/hexo-tag-video_cn.git"
+    "url": "git+https://github.com/HmyBmny/hexo-tag-tencent.git"
   },
   "keywords": [
     "hexo",
-    "hexo-tag",
+    "tag",
     "video"
   ],
   "author": "HmyBmny",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/HmyBmny/hexo-tag-video_cn/issues"
+    "url": "https://github.com/HmyBmny/hexo-tag-tencent/issues"
   },
-  "homepage": "https://github.com/HmyBmny/hexo-tag-video_cn#readme"
+  "homepage": "https://github.com/HmyBmny/hexo-tag-tencent#readme"
 }
