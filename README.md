@@ -1,5 +1,7 @@
 # hexo-tag-tencent
 
+[2016-08-16] 1）markdown文档直接将视频分享代码粘贴就可以插入视频，无需使用插件。 2）由于 GitHub Pages 是 https 协议，只有绑定独立域名才能使用 http 协议，所以没有绑定独立域名的站点无法插入分享视频。
+
 ## 安装
 ```
 npm install hexo-tag-tencent 
@@ -35,9 +37,4 @@ npm install hexo-tag-tencent
 
 https://hmybmny.github.io/hexo-tag-tencent/
 
-项目的灵感来源于hexo-tag-xvideos
-
-## 感谢
-
-![hexo-tag-xvideos](https://github.com/welksonramos/hexo-tag-xvideos)  
-之前我一直觉得除了WIFI万能钥匙以外再没有一件神器能让我如此心动，有了它，月入百万或许你也能行，珍重！
+借鉴hexo-tag-xvideos
