@@ -36,5 +36,3 @@ npm install hexo-tag-tencent
 ## 文档
 
 https://hmybmny.github.io/hexo-tag-tencent/
-
-借鉴hexo-tag-xvideos
