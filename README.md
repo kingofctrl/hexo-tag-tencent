@@ -35,4 +35,4 @@ npm install hexo-tag-tencent
 
 ## 文档
 
-https://hmybmny.github.io/hexo-tag-tencent/
+https://www.hmybmny.com/hexo-tag-tencent/
